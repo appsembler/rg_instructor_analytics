@@ -21,9 +21,9 @@ setup(
     description='Open Edx Instructor analytics tab',
     long_description=README,
     entry_points={
-        "openedx.course_tab": [
-            "instructor_analytics = rg_instructor_analytics.plugins:InstructorAnalyticsDashboardTab"
-        ],
+        # "openedx.course_tab": [
+        #     "instructor_analytics = rg_instructor_analytics.plugins:InstructorAnalyticsDashboardTab"
+        # ],
         "lms.djangoapp": [
             "rg_instructor_analytics = rg_instructor_analytics.apps:InstructorAnalyticsConfig",
         ],
